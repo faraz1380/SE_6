@@ -46,6 +46,7 @@ public class ExpressShipping implements ShippingStrategy {
 
 ## کلاس Package:
 این کلاس شامل یک متغیر از نوع ShippingStrategy است که با استفاده از آن می‌توان استراتژی حمل را در زمان اجرا تغییر داد. همچنین متدی به نام setShippingStrategy دارد که استراتژی حمل جدید را تنظیم می‌کند و متد calculateCost که هزینه حمل را با استفاده از استراتژی فعلی محاسبه می‌کند.
+
 ```java
 public class Package {
     private double weight;
